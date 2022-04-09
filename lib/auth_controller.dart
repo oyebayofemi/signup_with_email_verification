@@ -1,8 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:login_with_username_email/model/userModel.dart';
-import 'package:login_with_username_email/shared/snackbar.dart';
+
+import 'package:signup_with_email_verification/snackbar.dart';
+import 'package:signup_with_email_verification/userModel.dart';
 
 class AuthController extends ChangeNotifier {
   UserModel? user;

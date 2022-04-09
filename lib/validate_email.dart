@@ -1,6 +1,6 @@
 //To Validate email
 import 'package:flutter/cupertino.dart';
-import 'package:login_with_username_email/shared/snackbar.dart';
+import 'package:signup_with_email_verification/snackbar.dart';
 
 String? validateEmail(String value, BuildContext context) {
   // Pattern pattern =

@@ -1,8 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:login_with_username_email/model/userModel.dart';
-import 'package:login_with_username_email/services/auth_controller.dart';
+import 'package:signup_with_email_verification/auth_controller.dart';
 
 class UserProvider extends ChangeNotifier {
   FirebaseAuth _auth = FirebaseAuth.instance;
